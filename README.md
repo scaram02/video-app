@@ -9,7 +9,11 @@
 
 - To access the application start the server on the commandline, then find the application with the address http://localhost:8000
 
+```
     symfony server:start
+```
+
+- in case of an error such as "failed to open stream ... no such file or directory ... bootstrap.php" run `composer install` in the application directory
 
 - You can find some template skeletons in the directory "templates". Please note that Twig templates can use some mechanisms for including/extending other templates such as https://twig.symfony.com/doc/2.x/tags/extends.html. 
 
