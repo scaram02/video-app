@@ -2,8 +2,10 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
+    "node": "^13.10.1",
     "plyr": "^3.5.10",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "symfony": "0.0.1"
   },
   "devDependencies": {
     "@symfony/webpack-encore": "^0.28.2",

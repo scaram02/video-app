@@ -1,6 +1,9 @@
 index:
     path: /
     controller: App\Controller\DefaultController::index
+    methods:    GET
+    
 videos:
     path: /videos/{video}
     controller: App\Controller\VideoController::index
+    methods:    GET
