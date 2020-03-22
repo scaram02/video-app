@@ -1,22 +1,12 @@
-<h1>These are our latest videos</h1>
 
 {# here you can use the Twig variable 'videos' that gets passed from the controller #}
 
-{% include 'base.html.twig' %}
+{% extends 'base.html.twig' %}
 
 
 
 {# <a href="{{ path("/videos/{video}") }}" #}
-<ul>
-    {% for key, video in videos %}
-      <li>
-     <a href="{{ path('videos', {'video': key}) }}">
-     
-        {{ video.name|e }}
-         </a>
-        </li>
-    {% endfor %}
-</ul>
+
 
 
 
